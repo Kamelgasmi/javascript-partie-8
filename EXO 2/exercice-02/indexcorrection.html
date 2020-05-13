@@ -1,0 +1,11 @@
+onclick="HideAndShow('0') // à coller dans les <a> de la nav bar ////   il faut aussi changer le numero du onclick de 0 a 4
+    function HideAndShow(selectedIndex) {
+          var fable = document.getElementsByTagName('Section');
+          for(fableIndex = 0; fableIndex < fable.length; fableIndex++) {
+            if (fableIndex == selectedIndex) {
+              fable[fableIndex].style.display = 'block';
+            }else {
+              fable[fableIndex].style.display = 'none';
+            }
+          }
+        }

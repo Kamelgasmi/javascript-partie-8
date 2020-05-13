@@ -1,0 +1,4 @@
+/*fait disparaitre les paragraphe*/
+html .sr .paragraph {
+    visibility: hidden;
+}

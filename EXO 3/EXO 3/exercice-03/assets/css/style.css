@@ -1,0 +1,6 @@
+p{
+    display: none; /* on masque les paragraphes*/
+}
+p:first-of-type{ /* on fait apparaitre le 1er paragraphe*/
+    display: block;
+}
